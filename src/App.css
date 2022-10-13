@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+.App{
+  background-color:aliceblue;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.menu{
+  color: rgb(13, 0, 59);
+  position: relative;
+  top: 1.5em;
+}
+.ligne{
+  height: .2em;
+  width: 4em;
+  background-color: rgb(198, 168, 2);
+  position: relative;
+  top: 1.7em;
+}
+.type{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2em;
+  color: rgb(198, 168, 2);
+ 
+  font-weight: 600;
+  text-decoration: none;
+  list-style: none;
+
+  position: relative;
+  top: 2em;
+  left: -1em;
+  cursor: pointer;
+}
+li{
+  text-transform: capitalize;
+}
+li:hover{
+  border: none;
+  height: 20px;
+  border-radius: .2em;
+  background-color: rgba(230, 227, 227, 0.678);;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  padding: 4em;
+  
+}
+
